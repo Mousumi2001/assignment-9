@@ -7,7 +7,7 @@ const Cart = ({ cart }) => {
     return (
         <div className='style border-2 border-indigo-600 md:m-8 border-none'>
             <div>
-                <img className='image' src={logo} alt='' />
+                <img className='image bg-gray-200' src={logo} alt='' />
             </div>
             <div className=' md:flex justify-around items-center py-3 text-xl font-bold'>
                 <h1>{name}</h1>
