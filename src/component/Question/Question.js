@@ -7,9 +7,9 @@ const Question = ({ quest }) => {
     const { options, id, question, correctAnswer } = quest;
     console.log(correctAnswer)
 
-    // const handleIcon = () => {
-    //     alert(correctAnswer)
-    // }
+    const handleIcon = () => {
+        alert(correctAnswer)
+    }
 
     return (
         <div>
@@ -23,7 +23,7 @@ const Question = ({ quest }) => {
                     <button>{options[1]}</button>
                     <button>{options[2]}</button>
                     <button>{options[3]}</button>
-                    {/* <FontAwesomeIcon onClick={handleIcon} className='pt-5' icon={faEye}></FontAwesomeIcon> */}
+                    <FontAwesomeIcon onClick={handleIcon} className='pt-5' icon={faEye}></FontAwesomeIcon>
                 </div>
 
             </div>
