@@ -22,3 +22,16 @@
     color: white;
     font-weight: 500;
 }
+
+
+
+
+@media screen and (max-width:767px) {
+    .quiz {
+        border-radius: 5px;
+        margin: 2px 2px;
+        box-shadow: 0px 0px 15px 5px rgba(0, 9, 14, 0.083);
+        padding: 3px 1px;
+
+    }
+}
