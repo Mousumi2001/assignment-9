@@ -4,7 +4,7 @@ import './Head.css'
 const Head = () => {
     return (
         <div>
-            <div className='img bg-gradient-to-r from-sky-200 to-indigo-400 flex items-center'>
+            <div className='img bg-gradient-to-r from-sky-200 to-indigo-400 md:flex items-center'>
                 <div>
                     <h1 className='text-6xl font-bold p-6'>Welcome To My Website</h1>
                     <p className='font-semibold'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt eveniet quis corporis culpa repellendus. Iure placeat quis praesentium laudantium pariatur?</p>

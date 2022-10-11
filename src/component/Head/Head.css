@@ -9,3 +9,16 @@
     padding: 40px;
 
 }
+
+
+@media screen and (max-width:767px) {
+    .img div img {
+        height: 100%;
+    }
+
+    .img div {
+        width: 100%;
+        padding: 0px;
+
+    }
+}

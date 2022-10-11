@@ -14,7 +14,7 @@ const Home = () => {
         <div>
 
             <Head></Head>
-            <div className='flex p-8 m-6 align-middle '>
+            <div className='md:flex md:p-8 md:m-6 align-middle '>
                 {
                     data.map(cart => <Cart key={cart.id} cart={cart}></Cart>)
                 }
