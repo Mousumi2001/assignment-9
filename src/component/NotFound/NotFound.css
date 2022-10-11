@@ -1,3 +1,15 @@
-.bg {
-    background-color: url('https://tse1.mm.bing.net/th?id=OIP.qCJ2RvNldwIrg9mUr1HpvQHaE8&pid=Api&P=0');
+.bgd {
+    height: 700px;
+}
+
+.text {
+    padding: 200px;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .text {
+        padding: 100px 0;
+    }
 }
