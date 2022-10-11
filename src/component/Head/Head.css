@@ -1,0 +1,11 @@
+.img div img {
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 2px white;
+}
+
+.img div {
+    width: 50%;
+    padding: 40px;
+
+}
