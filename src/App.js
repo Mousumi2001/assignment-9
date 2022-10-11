@@ -6,6 +6,7 @@ import Home from './component/Home/Home';
 import Blog from './component/Blog/Blog';
 import Rechart from './component/Rechart/Rechart';
 import Quiz from './component/Quiz/Quiz';
+import NotFound from './component/NotFound/NotFound';
 
 function App() {
   const router = createBrowserRouter([
@@ -35,7 +36,7 @@ function App() {
     },
     {
       path: '*',
-      element: <h1>it has many work.</h1>
+      element: <NotFound></NotFound>
     }
   ])
   return (
