@@ -23,7 +23,7 @@ const Question = ({ quest }) => {
                     <button>{options[1]}</button>
                     <button>{options[2]}</button>
                     <button>{options[3]}</button>
-                    <FontAwesomeIcon onClick={handleIcon} className='pt-5' icon={faEye}></FontAwesomeIcon>
+                    <FontAwesomeIcon onClick={handleIcon} className='pt-5 w-5 h-5' icon={faEye}></FontAwesomeIcon>
 
                 </div>
 
