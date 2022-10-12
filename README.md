@@ -5,10 +5,15 @@ Quiz page
 
 
 # live website link
-
+link--(https://magical-toffee-23732a.netlify.app/)
 
 
 # what I do in this webpage
+1.I make a quiz webpage
+2.create some router
+3.webpage related three question and answer
+4.create responsive
+
 
 
 <!-- my comments end -->
